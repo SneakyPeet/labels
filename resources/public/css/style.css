@@ -1,0 +1,49 @@
+/* some style */
+
+@media print
+{
+  .no-print, .no-print *
+  {
+    display: none !important;
+  }
+}
+
+body {
+  font-family: Arial;
+}
+.labels {
+  border: solid 1px grey;
+  border-right: none;
+  border-bottom: none;
+  margin-bottom: 5px;
+}
+
+.label {
+  display: inline-block;
+  border: solid 1px grey;
+  border-top: none;
+  border-left: none;
+}
+
+
+.title {
+  font-weight: bold
+}
+
+.pencil {
+  padding: 10mm 5mm;
+}
+
+.small {
+  padding: 3mm;
+}
+
+.medium {
+  font-size: 5mm;
+  padding: 5mm;
+}
+
+.large {
+  font-size: 7.5mm;
+  padding: 5mm;
+}
